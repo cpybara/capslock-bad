@@ -11,28 +11,13 @@ Tired of of accedentally pressing the capslock key, ruining your work and wastin
 
 ## Remapping Caps Lock in Windows
 
-### Disabling the capslock feature of the Caps Lock button
-
-1. Press Win + R to open the Run dialogue box.
-2. Type `regedit` and press enter to open the registry editor.
-3. Enter “`Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout`” in the Registry Editor’s address bar.
-4. Right-click on an empty space in the right pane and select “New > Binary Value”.
-5. Name the new value “`Scancode Map`” and double-click on it.
-6. Enter the following code into the “Value data” field:
-   ```
-   00 00 00 00 00 00 00 00
-   02 00 00 00 3a 00 00 00
-   00 00 3a 00 00 00 37 e0
-   ```
-7. Click OK and restart the Windows.
-
-### Making the Button Useful
-
-#### Creating the AutoHotkey script
+#### Creating an AutoHotkey script
 
 1. Download and install the [AutoHotkey](https://autohotkey.com) utility.
 2. Open notepad and type the following code:
    ```
+   Capslock::return
+   
    Capslock & h::Send {Left}
    Capslock & j::Send {Down}
    Capslock & k::Send {Up}
