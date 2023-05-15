@@ -47,7 +47,7 @@ Tired of of accedentally pressing the capslock key, ruining your work and wastin
 1. Open the folder where your AutoHotkey script is located.
 2. Right-click on the script file and select "Create shortcut".
 3. Press Win + R to open the Run dialog box.
-4. Type shell:startup and press Enter. This will open the Startup folder.
+4. Type `shell:startup` and press Enter. This will open the Startup folder.
 5. Move the shortcut of your AutoHotkey script into the Startup folder.
 6. Restart your computer.
 
