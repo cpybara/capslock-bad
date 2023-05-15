@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Tired of of accedentally pressing the Caps-Lock key again and again, ruining your work and wasting your precious time? Well let's fix that and make the capslock key more useful for both windows and linux.
+Tired of of accedentally pressing the Caps-Lock key again and again, ruining your work and wasting your precious time? Let's fix that and make the capslock key more useful for both windows and linux.
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ Tired of of accedentally pressing the Caps-Lock key again and again, ruining you
 #### Creating an AutoHotkey script
 
 1. Download and install the [AutoHotkey](https://autohotkey.com) utility.
-2. Open notepad and type the following code:
+2. Open notepad and paste the following code:
    ```
    Capslock::return
    
