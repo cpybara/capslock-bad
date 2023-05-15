@@ -28,7 +28,7 @@ Tired of of accedentally pressing the Caps-Lock key again and again, ruining you
    *Now while the script is running whenever you'll press h, j, k or l keys while holding capslock, they'll behave as left, down, up and right arrow keys respectively.*
 
 4. To verify that the script is running, open the hidden tray in the taskbar and there should be the auto hotkey script icon visible.
-   ![image](https://github.com/nova-uwu/capslock-bad/assets/98371469/80a9cf15-5535-42b0-b54b-8b9e3be34b08)
+   ![image](https://imgur.com/a/TgT3Os0)
 
 #### Making the script run on startup
 
