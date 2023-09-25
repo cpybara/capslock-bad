@@ -65,7 +65,7 @@ Tired of of accedentally pressing the Caps-Lock key again and again, ruining you
    *this will map the Caps-Lock key to the Escape key and to the arrow keys when pressed with combination to h, j, k and l keys*
 4. Now enter the following line in the terminal for the changes to take effect:
    ```
-   sudo systemctl restart keyd && sudo systemctls enable keyd && sudo systemctl start keyd
+   sudo systemctl restart keyd && sudo systemctl enable keyd && sudo systemctl start keyd
    ``` 
 ## Conclusion
 
